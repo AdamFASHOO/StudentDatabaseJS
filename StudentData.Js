@@ -5,7 +5,7 @@ let hometown = ["Pinckney", "Ann Arbor", "Dearborn"];
 let favFood = ["sushi", "tacos", "donuts"];
 let favColor = ["blue", "green", "baby blue"];
 
-while (goAgain = true)
+while (goAgain === true)
 {
     let stuNum = prompt(`Which of our students information would you like to display? (1-${names.length})`);
     let index = stuNum - 1;
@@ -94,9 +94,7 @@ function RunAgain()
     }
     else if (input === "n")
     {
-        // return false;
-        window.stop();
-        
+        return false;
     }
     else
     {
